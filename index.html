@@ -2,10 +2,17 @@
 <html lang="en">
   <head>
     <title>Chucktowne Charters</title>
+    <!-- Google tag (gtag.js) --> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV649PG2B3"></script>
+    <script>   window.dataLayer = window.dataLayer || [];   
+    function gtag(){dataLayer.push(arguments);}   
+    gtag('js', new Date());   
+    gtag('config', 'G-DV649PG2B3'); 
+    </script>
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="Styles.css" />
+    <link rel="stylesheet" href="styles.css" />
 
   </head>
 
@@ -14,11 +21,12 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#home">home</a></li>
-          <li><a href="#rates">rates</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rates.html">Rates</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
         </ul>
       </nav>
+      
       <h1>Welcome to Chucktowne Charters</h1>
     </header>
 
@@ -27,26 +35,35 @@
        <!-- About Section -->
        <section id="home">
         <!-- Added image right above Our Mission -->
-        <img src="Caught FIsh.jpg" alt="Fishing Adventure" width="10%" />
+        <img src="7E9FD08F-A0D9-4F09-A3AA-1B74FB08DE1A.jpeg" alt="Fishing Adventure" width="20%" style="display: block; margin: 0 auto;" />
+
         <h2>Our Mission</h2>
         <p>
-            ChuckTowne Charters is a locally owned fishing charter company in the waters of Charleston, South Carolina specifically targeting Tarpon. We strive to provide the ultimate fishing experience for anyone who is looking to chase the Elusive Silver king. Every single time we are out on the water we look to educate clients and protect our waters.
+            ChuckTown Charters is a locally owned fishing charter company in the waters of Charleston, South Carolina specifically targeting Tarpon. We strive to provide the ultimate fishing experience for anyone who is looking to chase the Elusive Silver king. Every single time we are out on the water we look to educate clients and protect our waters.
         </p>
       </section>
-      <section>
+      <section class="faq-section">
         <h2>Frequently Asked Questions</h2>
-        <p>Do we need to bring anything?
-            It is highly suggested you bring polarized sunglasses, Sunscreen, Snacks, and anything else you might need for a long day on the water.
-            Do we need fishing experience?
-            Prior experience is always good but you don’t have to have ever even stepped foot on a boat. We will get you comfortable and ready to fight the fish of a life time.
-            Do we need a fishing license?
-            In the state of South Carolina as long as the vessel is registered through Coast Guard you do not need a license.
-        </p>
-    </section>
+        <div class="faq-content">
+          <p><strong>Do we need to bring anything?</strong><br>
+             It is highly suggested you bring polarized sunglasses, sunscreen, snacks, and anything else you might need for a long day on the water.</p>
+      
+          <p><strong>Do we need fishing experience?</strong><br>
+             Prior experience is always good, but you don’t have to have ever even stepped foot on a boat. We will get you comfortable and ready to fight the fish of a lifetime.</p>
+      
+          <p><strong>Do we need a fishing license?</strong><br>
+             In the state of South Carolina, as long as the vessel is registered through the Coast Guard, you do not need a license.</p>
+      
+          <img src="IMG_0101.jpg" alt="Fishing Adventure" width="20%" style="display: block; margin: 20px auto;" />
+        </div>
+      </section>
+      
     <!-- Footer Section -->
     <footer>
       <p>&copy; 2024 Chucktowne Charters. All rights reserved.</p>
     </footer>
   </body>
 </html>
+
+
 
