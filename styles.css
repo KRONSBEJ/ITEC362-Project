@@ -1,0 +1,155 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ADD8E6; /* Light blue background */
+  color: black; /* Black text color */
+}
+
+/* Header Styles */
+header {
+  background-color: #ADD8E6; /* Light blue background */
+  color: black; /* Black text */
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1.5rem;
+}
+
+nav ul li a {
+  color: black; /* Black text for navigation links */
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00008B; /* Darker blue on hover */
+}
+
+/* Main Content Styles */
+main {
+  padding: 2rem 0;
+}
+
+section {
+  padding: 2rem;
+  background-color: #f0f8ff; /* Very light blue for sections */
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Charter Packages Styles */
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: black; /* Black text for section headings */
+}
+
+ul li p {
+  font-size: 1.1rem;
+}
+
+/* Gallery Styles */
+ul li img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0.5rem auto;
+}
+
+/* Contact Form Styles */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #00008B; /* Dark blue button */
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.7rem 2rem;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: black; /* Black on hover */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #ADD8E6; /* Light blue background */
+  color: black; /* Black text for footer */
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+.home img{
+  width:  150px;
+  height: 200px ;
+  border-radius: 25%;
+  border: 2 px solid rgb(Black, black, black);
+}
