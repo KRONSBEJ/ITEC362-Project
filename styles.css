@@ -148,8 +148,15 @@ footer p {
 }
 
 .home img{
-  width:  150px;
-  height: 200px ;
+  width:  80px;
+  height: 70px ;
   border-radius: 25%;
-  border: 2 px solid rgb(Black, black, black);
+  border: 2px solid rgb(Black, black, black);
+}
+
+.bottom image img{
+  width: 80px;
+  height: 70px;
+  border-radius: 25%;
+  border: 2px solid rgb(Black, black, black);
 }
